@@ -1,13 +1,13 @@
 ---
 name: Runscope
 x-slug: runscope
-description: "API performance monitoring. Everything is going to be 200 OK\xAE"
+description: API performance monitoring. Everything is going to be 200 OK
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
 x-kinRank: "9"
 x-alexaRank: "125183"
 tags: Runscope
-created: "2018-05-22"
-modified: "2018-05-22"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/runscope/master/_listings/runscope/apis.md
 specificationVersion: "0.14"
 apis:
@@ -15,7 +15,7 @@ apis:
   x-api-slug: runscope
   description: Account Resource
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////account
   tags: Account
   properties:
@@ -27,7 +27,7 @@ apis:
   x-api-slug: runscope
   description: Returns a list of buckets.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets
   tags: Buckets
   properties:
@@ -39,7 +39,7 @@ apis:
   x-api-slug: runscope
   description: Create a new bucket
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets
   tags: Buckets
   properties:
@@ -49,7 +49,7 @@ apis:
   x-api-slug: runscope
   description: Delete a single bucket resource.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}
   tags: Buckets, Bucketkey
   properties:
@@ -61,7 +61,7 @@ apis:
   x-api-slug: runscope
   description: Returns a single bucket resource.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}
   tags: Buckets, Bucketkey
   properties:
@@ -73,7 +73,7 @@ apis:
   x-api-slug: runscope
   description: Returns list of shared environments for a specified bucket.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/environments
   tags: Buckets, Environments
   properties:
@@ -85,7 +85,7 @@ apis:
   x-api-slug: runscope
   description: Create new shared environment.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/environments
   tags: Buckets, Environments
   properties:
@@ -95,7 +95,7 @@ apis:
   x-api-slug: runscope
   description: Update the details of a shared environment.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/environments/{environmentId}
   tags: Buckets, Environments
   properties:
@@ -105,7 +105,7 @@ apis:
   x-api-slug: runscope
   description: Retrieve a list of error messages in a bucket
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/errors
   tags: Buckets, Errors
   properties:
@@ -117,7 +117,7 @@ apis:
   x-api-slug: runscope
   description: Clear a bucket (remove all messages).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/messages
   tags: Buckets, Messages
   properties:
@@ -129,7 +129,7 @@ apis:
   x-api-slug: runscope
   description: Retrieve a list of messages in a bucket
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/messages
   tags: Buckets, Messages
   properties:
@@ -141,7 +141,7 @@ apis:
   x-api-slug: runscope
   description: Create a message
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/messages
   tags: Buckets, Messages
   properties:
@@ -151,7 +151,7 @@ apis:
   x-api-slug: runscope
   description: Retrieve the details for a single message.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/messages/{messageId}
   tags: Buckets, Messages, Message
   properties:
@@ -163,7 +163,7 @@ apis:
   x-api-slug: runscope
   description: Returns a list of tests.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests
   tags: Buckets, Tests
   properties:
@@ -175,7 +175,7 @@ apis:
   x-api-slug: runscope
   description: Create a test.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests
   tags: Buckets, Tests
   properties:
@@ -186,7 +186,7 @@ apis:
   description: Delete a test, including all steps, schedules, test-specific environments
     and results.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}
   tags: Buckets, Tests
   properties:
@@ -198,7 +198,7 @@ apis:
   x-api-slug: runscope
   description: Retrieve the details of a given test by ID.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}
   tags: Buckets, Tests
   properties:
@@ -212,7 +212,7 @@ apis:
     To modify other individual properties of a test, make requests to the steps, environments,
     and schedules subresources of the test.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}
   tags: Buckets, Tests
   properties:
@@ -225,7 +225,7 @@ apis:
   description: Return details of the test's environments (only those that belong to
     the specified test)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}/environments
   tags: Buckets, Tests, Environments
   properties:
@@ -237,7 +237,7 @@ apis:
   x-api-slug: runscope
   description: Create new test environment.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}/environments
   tags: Buckets, Tests, Environments
   properties:
@@ -247,7 +247,7 @@ apis:
   x-api-slug: runscope
   description: Update the details of a test environment.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}/environments/{environmentId}
   tags: Buckets, Tests, Environments
   properties:
@@ -257,7 +257,7 @@ apis:
   x-api-slug: runscope
   description: Return details of the test metrics for the specified timeframe.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}/metrics
   tags: Buckets, Tests, Metrics
   properties:
@@ -269,7 +269,7 @@ apis:
   x-api-slug: runscope
   description: List test steps for a test.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}/steps
   tags: Buckets, Tests, Steps
   properties:
@@ -281,7 +281,7 @@ apis:
   x-api-slug: runscope
   description: Add new test step.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}/steps
   tags: Buckets, Tests, Steps
   properties:
@@ -291,7 +291,7 @@ apis:
   x-api-slug: runscope
   description: Delete a step from a test.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}/steps/{stepId}
   tags: Buckets, Tests, Steps
   properties:
@@ -303,7 +303,7 @@ apis:
   x-api-slug: runscope
   description: Update the details of a single test step.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////buckets/{bucketKey}/tests/{testId}/steps/{stepId}
   tags: Buckets, Tests, Steps
   properties:
@@ -313,7 +313,7 @@ apis:
   x-api-slug: runscope
   description: Team agents list
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////teams/{teamId}/agents
   tags: Teams, Agents
   properties:
@@ -325,7 +325,7 @@ apis:
   x-api-slug: runscope
   description: Team integrations list
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////teams/{teamId}/integrations
   tags: Teams, Integrations
   properties:
@@ -337,7 +337,7 @@ apis:
   x-api-slug: runscope
   description: Teams Resource
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com////teams/{teamId}/people
   tags: Teams, People
   properties:
@@ -347,9 +347,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/runscope/master/_listings/runscope/teamsteamidpeople-get-openapi.md
 - name: Runscope
   x-api-slug: runscope
-  description: "API performance monitoring. Everything is going to be 200 OK\xAE"
+  description: API performance monitoring. Everything is going to be 200 OK
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
-  humanURL: https://www.runscope.com/
+  humanURL: http://runscope.com
   baseURL: https://api.runscope.com//
   tags: Runscope
   properties:
@@ -392,6 +392,8 @@ x-common:
   url: https://www.runscope.com/terms
 - type: x-twitter
   url: https://twitter.com/Runscope
+- type: x-website
+  url: http://runscope.com
 - type: x-website
   url: https://www.runscope.com/
 include: []
